@@ -3,4 +3,5 @@
 
 用官方编译法https://xmrig.com/docs/miner/build/ubuntu
 
-编译于 AWS C5.2xlarge Ubuntu Server 20.04 LTS (HVM), SSD Volume Type
+编译于 AWS C5.xlarge Ubuntu Server 20.04 LTS (HVM), SSD Volume Type
+编译于 AWS C5.large Ubuntu Server 20.04 LTS (HVM), SSD Volume Type
