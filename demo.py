@@ -9,8 +9,8 @@ opt = parser.parse_args()
 
 
 def replace(user):
-    f = open('config.json', 'a')
-    lines = f.readlines()
+    lines = open('config.json').readlines()
+    f = open('config.json', 'w')
     for s in lines:
         f.write(s.replace('test', user))
     f.close()
